@@ -82,6 +82,6 @@ export default function overflow(
     },
     style
   )
-
+  console.log(clipPath, overflowClipPath, contentMask)
   return clipPath + overflowClipPath + contentMask
 }
